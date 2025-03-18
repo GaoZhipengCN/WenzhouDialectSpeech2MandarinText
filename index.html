@@ -21,14 +21,18 @@
             border-collapse: collapse;
             margin-top: 10px;
         }
-        table, th, td {
+
+        th, td {
             border: 1px solid #ddd;
             padding: 10px;
-            text-align: left;
+            text-align: center;  /* 水平居中 */
+            vertical-align: middle;  /* 垂直居中 */
         }
-        th {
-            background: #f4f4f4;
-        }
+
+th {
+    background: #f4f4f4;
+}
+
         audio {
             width: 100%;
         }
@@ -74,29 +78,13 @@
             <td>Mandarin Text</td>
         </tr>
     </table>
-    <p>由于版权限制，我们无法公开完整数据集。以下是一个小规模示例，仅用于展示数据格式。</p>
-    <p>如果您对该研究感兴趣，并希望探讨学术合作，请联系：<strong>your_email@example.com</strong></p>
+    <p>Data comes from <a href="https://www.youtube.com/playlist?list=PLqP_o2kuQ2LrzYSJoXKgME3i3x_8yDXsX" target="_blank"></a></p>
+    <p>Due to copyright issues, we may not be able to make the complete dataset public.</p>
+    <p>The following is a sample of the dataset</p>
+    
+    <p>If you are interested in this dataset and research, please contact: <strong>zhipeng.gao.2000@gmail.com</strong></p>
 
-    <h2>数据示例</h2>
-    <table>
-        <tr>
-            <th>语音文件</th>
-            <th>转写文本</th>
-            <th>播放</th>
-        </tr>
-        <tr>
-            <td>sample_001.wav</td>
-            <td>你好，今天温州天气很好。</td>
-            <td><audio controls><source src="audio/sample_001.wav" type="audio/wav"></audio></td>
-        </tr>
-        <tr>
-            <td>sample_002.wav</td>
-            <td>请问去火车站怎么走？</td>
-            <td><audio controls><source src="audio/sample_002.wav" type="audio/wav"></audio></td>
-        </tr>
-    </table>
-
-    <h2>公开模型</h2>
+    <h2>Models</h2>
     <p>我们的训练模型已公开，可用于学术研究。</p>
     <p><a href="./model/wenzhou-asr-model.zip" download>点击这里下载模型</a></p>
 
