@@ -3,4 +3,6 @@ Dataset and models for Wenzhou dialect speech to Mandarin text conversion task
 
 https://gaozhipengcn.github.io/WenzhouDialectSpeech2MandarinText/
 
-ADD Updates(2026/6/23)
+ADD Updates(2026/3)
+
+ADD Updates(2026/6)
